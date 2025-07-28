@@ -1,0 +1,30 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{xurl}
+\usepackage{authblk}
+\usepackage[hidelinks]{hyperref}
+\usepackage[nomarkers]{endfloat}
+\usepackage[toc,page]{appendix}
+%----------------------------------------------------------------------------------------
+% Bibliography
+\usepackage[
+    backend=biber,
+    style=authoryear,
+    url=true
+]{biblatex}
+\addbibresource{main.bib}
+%----------------------------------------------------------------------------------------
+
+\title{Historical Harpsichord Keyboard Exhibition: San Colombano}
+\author{Matthew Hamilton}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\input{article}
+
+\clearpage
+\printbibliography
+\end{document}

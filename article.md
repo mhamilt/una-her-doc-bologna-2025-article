@@ -281,7 +281,7 @@ digital sound synthesis to replicate the physical feedback and acoustic
 response of an original 15th century harpsichord in the Italian style.
 
 <figure id="fig:log-harp-comp">
-<img src="outline-compare.png" style="width:50.0%" />
+<img src="img/outline-compare.png" style="width:50.0%" />
 <figcaption>Scale comparison between a 15th Century logarithmic shape
 and the new keyboard interface.</figcaption>
 </figure>

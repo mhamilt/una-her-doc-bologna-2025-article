@@ -368,6 +368,8 @@ ageing instruments while honouring their performative and instructional
 roles. Moreover, this integration opens pathways to novel conservation
 strategies that extend beyond current paradigms.
 
+# References
+
 Avrami, Erica, Randall Mason, and Martadela Torre. 2000. “Values and
 Heritage Conservation.” Technical report. The Getty Conservation
 Institute.

@@ -1,8 +1,10 @@
 # Introduction
 
 <figure id="fig:49-key">
-<img src="img/49-key-front-top.png" style="width:60.0%" />
-<figcaption>Augmented replica keyboard interface</figcaption>
+<img src="img/49-key-front-top.png" style="width:60.0%"
+alt="Figure 1: Augmented replica keyboard interface" />
+<figcaption aria-hidden="true">Figure 1: Augmented replica keyboard
+interface</figcaption>
 </figure>
 
 Musical instruments present a uniquely challenging problem within the
@@ -252,11 +254,12 @@ dilemma.
 # Museo San Colombano Exhibition
 
 <figure id="fig:mark2">
-<img src="img/mark2.png" style="width:100.0%" />
-<figcaption>Electronically Augmented Keyboard Interface. Colour LEDs are
-hidden from visitors by the name plate. These LEDs were used in the
-development and calibration process for visual feedback of key
-states.</figcaption>
+<img src="img/mark2.png" style="width:100.0%"
+alt="Figure 2: Electronically Augmented Keyboard Interface. Colour LEDs are hidden from visitors by the name plate. These LEDs were used in the development and calibration process for visual feedback of key states." />
+<figcaption aria-hidden="true">Figure 2: Electronically Augmented
+Keyboard Interface. Colour LEDs are hidden from visitors by the name
+plate. These LEDs were used in the development and calibration process
+for visual feedback of key states.</figcaption>
 </figure>
 
 With over fifty early keyboard instruments, primarily early plucked
@@ -281,9 +284,10 @@ digital sound synthesis to replicate the physical feedback and acoustic
 response of an original 15th century harpsichord in the Italian style.
 
 <figure id="fig:log-harp-comp">
-<img src="img/outline-compare.png" style="width:50.0%" />
-<figcaption>Scale comparison between a 15th Century logarithmic shape
-and the new keyboard interface.</figcaption>
+<img src="img/outline-compare.png" style="width:50.0%"
+alt="Figure 3: Scale comparison between a 15th Century logarithmic shape and the new keyboard interface." />
+<figcaption aria-hidden="true">Figure 3: Scale comparison between a 15th
+Century logarithmic shape and the new keyboard interface.</figcaption>
 </figure>
 
 This new interface builds on the work of McAlpine ((2014)) with the
@@ -316,9 +320,10 @@ Italian Renaissance building tradition, including the 1547 harpsichord
 and the 1540 spinet by Alessandro Trasuntino.
 
 <figure id="fig:installed">
-<img src="img/installation.png" style="width:50.0%" />
-<figcaption>Installation of the new keyboard in the Oratory, San
-Colombano.</figcaption>
+<img src="img/installation.png" style="width:50.0%"
+alt="Figure 4: Installation of the new keyboard in the Oratory, San Colombano." />
+<figcaption aria-hidden="true">Figure 4: Installation of the new
+keyboard in the Oratory, San Colombano.</figcaption>
 </figure>
 
 The interface is presently linked to a commercial software sampler;
@@ -347,9 +352,10 @@ suggest a wider problem with encouraging interaction in the museum
 context.
 
 <figure id="fig:user">
-<img src="img/exhibition-user-1.jpeg" style="width:33.0%" />
-<figcaption>Visitor to the exhibition demonstrating headphone
-setup.</figcaption>
+<img src="img/exhibition-user-1.jpeg" style="width:33.0%"
+alt="Figure 5: Visitor to the exhibition demonstrating headphone setup." />
+<figcaption aria-hidden="true">Figure 5: Visitor to the exhibition
+demonstrating headphone setup.</figcaption>
 </figure>
 
 Future design iterations will serve as a research probe to explore the

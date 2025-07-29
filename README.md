@@ -1,6 +1,13 @@
 ## Building
 
 ### Word
+
 ```
-pandoc --citeproc --standalone main.tex -o article.md -t markdown_strict
+pandoc --filter pandoc-crossref --citeproc --reference-doc style.docx main.tex -o article.docx  
+```
+
+### Markdown
+
+```
+pandoc -F pandoc-crossref --citeproc main.tex -o article.md -t markdown_strict 
 ```

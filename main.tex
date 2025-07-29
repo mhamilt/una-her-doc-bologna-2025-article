@@ -1,6 +1,7 @@
 \documentclass{article}
 \usepackage{graphicx} % Required for inserting images
-\usepackage{xurl}
+% \usepackage{xurl}
+\usepackage[hyphens]{url}
 \usepackage{authblk}
 \usepackage[hidelinks]{hyperref}
 \usepackage{booktabs}
@@ -8,11 +9,14 @@
 %----------------------------------------------------------------------------------------
 % Bibliography
 \usepackage[
+    style=authoryear-comp, % author year except    
     backend=biber,
-    style=authoryear,
-    url=true
+    maxnames=1,
+    maxcitenames=1,
+    uniquelist=false,
 ]{biblatex}
 \addbibresource{main.bib}
+\renewcommand{\cite}{\parencite}
 %----------------------------------------------------------------------------------------
 
 \title{Historical Harpsichord Keyboard Exhibition: San Colombano}

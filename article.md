@@ -274,7 +274,7 @@ In a collaboration between Museo San Colombano and the NEMUS project, we
 designed an electronically augmented replica of a historical harpsichord
 keyboard for interaction with digital musical instruments (Figure
 <a href="#fig:49-key" data-reference-type="ref"
-data-reference="fig:49-key">1</a>
+data-reference="fig:49-key">1</a>,
 <a href="#fig:mark2" data-reference-type="ref"
 data-reference="fig:mark2">2</a>). The goal was to enable visitors to
 experience the harpsichord’s unique vibro-tactile qualities without
@@ -463,9 +463,9 @@ Tsay, Chia-Jung. 2013. “Sight over Sound in the Judgment of Music
 Performance.” *Proceedings of the National Academy of Sciences - PNAS*
 110 (36): 14580–85.
 
-[^1]: (“a handful dismissed the idea of heritage as a negative idea,
+[^1]: “a handful dismissed the idea of heritage as a negative idea,
     noting for instance that heritage was ‘keeping that which aught to
-    be alive dead.” Smith 2006).
+    be alive dead.’ ” (Smith 2006)
 
 [^2]: It is questionable to say there is such a thing as a ‘Baroque‘
     cello (or violin) as designs of the period differ.

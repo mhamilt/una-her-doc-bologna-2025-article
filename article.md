@@ -1,12 +1,5 @@
 # Introduction
 
-<figure id="fig:49-key">
-<img src="img/49-key-front-top.png" style="width:60.0%"
-alt="Figure 1: Augmented replica keyboard interface" />
-<figcaption aria-hidden="true">Figure 1: Augmented replica keyboard
-interface</figcaption>
-</figure>
-
 Musical instruments present a uniquely challenging problem within the
 heritage sector. Unlike many heritage objects, they are both aesthetic
 artifacts and functional tools for producing music. This duality
@@ -19,14 +12,12 @@ traditional frameworks to better encompass their hybrid nature. This
 article will discuss the nature of musical instruments as heritage
 objects and presents a recent project at Museo San Colombano in Bologna,
 Italy, for which a new augmented replica harpsichord keyboard interface
-(Figure <a href="#fig:49-key" data-reference-type="ref"
-data-reference="fig:49-key">1</a>) was created. The goal of the project
-was to reintroduce the experience of playing historical keyboard
-instruments. This project embodies the intersection of conservation
-philosophy, technical innovation, and museum practice, providing a
-practical case study on how living interaction with heritage instruments
-might be facilitated while safeguarding their material and cultural
-values.
+was created. The goal of the project was to reintroduce the experience
+of playing historical keyboard instruments. This project embodies the
+intersection of conservation philosophy, technical innovation, and
+museum practice, providing a practical case study on how living
+interaction with heritage instruments might be facilitated while
+safeguarding their material and cultural values.
 
 # Living vs Dead Heritage
 
@@ -255,8 +246,8 @@ dilemma.
 
 <figure id="fig:mark2">
 <img src="img/mark2.png" style="width:100.0%"
-alt="Figure 2: Electronically Augmented Keyboard Interface. Colour LEDs are hidden from visitors by the name plate. These LEDs were used in the development and calibration process for visual feedback of key states." />
-<figcaption aria-hidden="true">Figure 2: Electronically Augmented
+alt="Figure 1: Electronically Augmented Keyboard Interface. Colour LEDs are hidden from visitors by the name plate. These LEDs were used in the development and calibration process for visual feedback of key states." />
+<figcaption aria-hidden="true">Figure 1: Electronically Augmented
 Keyboard Interface. Colour LEDs are hidden from visitors by the name
 plate. These LEDs were used in the development and calibration process
 for visual feedback of key states.</figcaption>
@@ -273,10 +264,8 @@ condition after minimal intervention.
 In a collaboration between Museo San Colombano and the NEMUS project, we
 designed an electronically augmented replica of a historical harpsichord
 keyboard for interaction with digital musical instruments (Figure
-<a href="#fig:49-key" data-reference-type="ref"
-data-reference="fig:49-key">1</a>,
 <a href="#fig:mark2" data-reference-type="ref"
-data-reference="fig:mark2">2</a>). The goal was to enable visitors to
+data-reference="fig:mark2">1</a>). The goal was to enable visitors to
 experience the harpsichord’s unique vibro-tactile qualities without
 risking damage to the original artifacts and offer an immersive learning
 environment. The keyboard incorporates an optical sensor system and
@@ -284,9 +273,9 @@ digital sound synthesis to replicate the physical feedback and acoustic
 response of an original 15th century harpsichord in the Italian style.
 
 <figure id="fig:log-harp-comp">
-<img src="img/outline-compare.png" style="width:50.0%"
-alt="Figure 3: Scale comparison between a 15th Century logarithmic shape and the new keyboard interface." />
-<figcaption aria-hidden="true">Figure 3: Scale comparison between a 15th
+<img src="img/comparison.png" style="width:100.0%"
+alt="Figure 2: Scale comparison between a 15th Century logarithmic shape and the new keyboard interface." />
+<figcaption aria-hidden="true">Figure 2: Scale comparison between a 15th
 Century logarithmic shape and the new keyboard interface.</figcaption>
 </figure>
 
@@ -310,19 +299,19 @@ to be influenced by visual elements when making musical judgments (Tsay
 perceived as an ‘authentic’ by visitors. The rectangular frame deviates
 from the traditional logarithmic (Figure
 <a href="#fig:log-harp-comp" data-reference-type="ref"
-data-reference="fig:log-harp-comp">3</a>) form as the interface needed
+data-reference="fig:log-harp-comp">2</a>) form as the interface needed
 be compact enough not to compromise space for exhibition of the
 permanent display. The keyboard is hosted in the Oratory above the
 museum’s main hall (Figure
 <a href="#fig:installed" data-reference-type="ref"
-data-reference="fig:installed">4</a>) alongside unique examples of the
+data-reference="fig:installed">3</a>) alongside unique examples of the
 Italian Renaissance building tradition, including the 1547 harpsichord
 and the 1540 spinet by Alessandro Trasuntino.
 
 <figure id="fig:installed">
-<img src="img/installation.png" style="width:50.0%"
-alt="Figure 4: Installation of the new keyboard in the Oratory, San Colombano." />
-<figcaption aria-hidden="true">Figure 4: Installation of the new
+<img src="img/installation.png" style="width:75.0%"
+alt="Figure 3: Installation of the new keyboard in the Oratory, San Colombano." />
+<figcaption aria-hidden="true">Figure 3: Installation of the new
 keyboard in the Oratory, San Colombano.</figcaption>
 </figure>
 
@@ -332,7 +321,7 @@ collection that can no longer be maintained in playable condition
 accessible. Museum visitors are invited to play the interface and listen
 through a pair of headphones (Figure
 <a href="#fig:user" data-reference-type="ref"
-data-reference="fig:user">5</a>).
+data-reference="fig:user">4</a>).
 
 # Conclusion
 
@@ -353,8 +342,8 @@ context.
 
 <figure id="fig:user">
 <img src="img/exhibition-user-1.jpeg" style="width:33.0%"
-alt="Figure 5: Visitor to the exhibition demonstrating headphone setup." />
-<figcaption aria-hidden="true">Figure 5: Visitor to the exhibition
+alt="Figure 4: Visitor to the exhibition demonstrating headphone setup." />
+<figcaption aria-hidden="true">Figure 4: Visitor to the exhibition
 demonstrating headphone setup.</figcaption>
 </figure>
 

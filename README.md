@@ -3,7 +3,7 @@
 ### Word
 
 ```
-pandoc --filter pandoc-crossref --citeproc --reference-doc style.docx main.tex -o article.docx  
+pandoc --filter pandoc-crossref --citeproc --reference-doc style.dotx main.tex -o article.docx  
 ```
 
 ### Markdown

@@ -45,10 +45,10 @@ While Poulios’ arguments are primarily directed at heritage sites and
 ceremonial objects, the underlying philosophy is applicable to the wider
 umbrella heritage objects, particularly musical instruments. There is
 false dichotomy that presents conservation as a choice between heritage
-as static and ‘dead’ or ‘living’.[1]. The reality is more complex and to
-treat heritage as perpetually living without acknowledging its material
-finitude risks creating an ‘undead’ heritage, neither truly alive nor
-preserved.
+as static and ‘dead’ or ‘living’.[^1]. The reality is more complex and
+to treat heritage as perpetually living without acknowledging its
+material finitude risks creating an ‘undead’ heritage, neither truly
+alive nor preserved.
 
 # A New Value for Conservation
 
@@ -219,11 +219,11 @@ mechanisms for string excitation (plucking multiple registers vs. a
 single hammer) resulting in a qualitative difference in the
 vibro-tactile response. Conversely, the baroque and modern cello are
 both bowed string instruments with identical excitation physics, despite
-evolving dimensions and construction details.[2] Davies misunderstanding
-combined with confusion over Levinson’s emphasis on ‘gestural
-repertoires’ (Levinson 2011) provide an example of the precariousness of
-‘authenticity‘ and its citation in (Laurenson 2006) show the
-consequences of its misapplication.
+evolving dimensions and construction details.[^2] Davies
+misunderstanding combined with confusion over Levinson’s emphasis on
+‘gestural repertoires’ (Levinson 2011) provide an example of the
+precariousness of ‘authenticity‘ and its citation in (Laurenson 2006)
+show the consequences of its misapplication.
 
 Davies also writes
 
@@ -463,9 +463,9 @@ Tsay, Chia-Jung. 2013. “Sight over Sound in the Judgment of Music
 Performance.” *Proceedings of the National Academy of Sciences - PNAS*
 110 (36): 14580–85.
 
-[1] (“a handful dismissed the idea of heritage as a negative idea,
-noting for instance that heritage was ‘keeping that which aught to be
-alive dead.” Smith 2006).
+[^1]: (“a handful dismissed the idea of heritage as a negative idea,
+    noting for instance that heritage was ‘keeping that which aught to
+    be alive dead.” Smith 2006).
 
-[2] It is questionable to say there is such a thing as a ‘Baroque‘ cello
-(or violin) as designs of the period differ.
+[^2]: It is questionable to say there is such a thing as a ‘Baroque‘
+    cello (or violin) as designs of the period differ.

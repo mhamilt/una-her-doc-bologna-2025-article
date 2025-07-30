@@ -53,9 +53,9 @@ preserved.
 # A New Value for Conservation
 
 The justification for conserving heritage objects often rests upon a
-complex matrix of values. Avrami et al. ((2000)) provide a collection of
-value systems that underpin conservation decisions across different
-disciplines and organizations, summarized in Table
+complex matrix of values. Avrami, Mason, and Torre (2000) provide a
+collection of value systems that underpin conservation decisions across
+different disciplines and organizations, summarized in Table
 <a href="#tab:values_comparison" data-reference-type="ref"
 data-reference="tab:values_comparison">1</a>.
 
@@ -188,7 +188,7 @@ instruments, how many keys, valves, bridges can be substituted? How many
 patches and struts can be glued to soundboards before the instrument
 ceases to historically authentic?
 
-Laurenson ((2006)) addresses authenticity by suggesting that the
+Laurenson (2006) addresses authenticity by suggesting that the
 significance and function of each component must guide decisions about
 conservation and change. However, this approach simply ‘kicks the can
 down the road.’ For example, Laurenson discusses the Walkman in Angus
@@ -199,7 +199,7 @@ approach demands further reflection when applied to historical musical
 instruments already past the point of indefinite preservation while
 retaining function.
 
-Davies’ ((2001)) treatment of authenticity and substitution in musical
+Davies (2001) treatment of authenticity and substitution in musical
 performance is influential but problematic in (Laurenson 2006).
 
 > “Where the change in instrumentation, and adaptations made to the
@@ -225,7 +225,7 @@ repertoires’ (Levinson 2011) provide an example of the precariousness of
 ‘authenticity‘ and its citation in (Laurenson 2006) show the
 consequences of its misapplication.
 
-Davies also writes:
+Davies also writes
 
 > “It is relevant to add a second observation to this first: period
 > instruments, when played in the style of the day, sound different from
@@ -237,8 +237,8 @@ Davies also writes:
 To allow some leniency to Davies, there have scientific been studies
 exploring these ideas, but they do result in Davies assessment here
 being objectively incorrect. Given the recent studies by Fritz et al.
-((2012, 2014, 2017)) on old violins – and assuming it is not a stretch
-to apply the same conclusions to other string instruments – Davies
+(2012, 2014, 2017) on old violins – and assuming it is not a stretch to
+apply the same conclusions to other string instruments – Davies
 assessment here is objectively incorrect. This brings us back to the
 instructional value of historical instruments: they are finite, their
 sounds do not age well, they cannot be simply substituted without
@@ -290,9 +290,9 @@ alt="Figure 3: Scale comparison between a 15th Century logarithmic shape and the
 Century logarithmic shape and the new keyboard interface.</figcaption>
 </figure>
 
-This new interface builds on the work of McAlpine ((2014)) with the
-Benton Fletcher Collection. However, user tests identified a limitation:
-the commercially available weighted keys failed to provide an authentic
+This new interface builds on the work of McAlpine (2014) with the Benton
+Fletcher Collection. However, user tests identified a limitation: the
+commercially available weighted keys failed to provide an authentic
 sense of interacting with a historical plucked keyboard instrument
 (McAlpine 2014). The “Tromba Moderna” project (Baldwin et al. 2016)
 approached the issue of musical heritage playability by recreating and

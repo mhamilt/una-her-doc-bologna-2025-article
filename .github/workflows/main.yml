@@ -20,7 +20,7 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v3 # this gives the workflow access to your repository files
       - name: Run Pandoc on main tex file
-        run: "pandoc -F pandoc-crossref --citeproc -t html -s -o test.html main.tex" # gets appended to pandoc command
+        run: "pandoc -F pandoc-crossref --citeproc -t html -s -o article.html main.tex" # gets appended to pandoc command
       - name: Try and make a pdf from tex file
         run: "pandoc -s -o article.pdf main.tex" 
         continue-on-error: true

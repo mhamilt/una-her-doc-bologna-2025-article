@@ -50,12 +50,11 @@ different disciplines and organizations, summarized in Table
 <a href="#tab:values_comparison" data-reference-type="ref"
 data-reference="tab:values_comparison">1</a>.
 
-width=
-
 <table>
 <caption>Comparative Analysis of Value Systems in Heritage Conservation
-<span class="citation" data-cites="avrami_values_2000">(Avrami, Mason,
-and Torre 2000)</span>.</caption>
+adapted from <span class="citation"
+data-cites="avrami_values_2000">(Avrami, Mason, and Torre
+2000)</span>.</caption>
 <tbody>
 <tr>
 <td style="text-align: left;"><strong>Art History</strong></td>
@@ -95,8 +94,7 @@ and Torre 2000)</span>.</caption>
 </tr>
 <tr>
 <td style="text-align: left;">Use</td>
-<td style="text-align: left;">Social (including spiritual, political,
-national, other cultural)</td>
+<td style="text-align: left;">Social</td>
 <td style="text-align: left;">Bequest</td>
 <td style="text-align: left;">Resource</td>
 </tr>

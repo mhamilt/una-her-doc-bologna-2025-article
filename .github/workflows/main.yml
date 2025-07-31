@@ -31,7 +31,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: convert_via_pandoc
     container:
-      image: docker://pandoc/latex:3
+      image: docker://leplusorg/latex:sha-373ec13
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3 # this gives the workflow access to your repository files

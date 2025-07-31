@@ -15,7 +15,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     container:
-      image: docker://pandoc/latex:2.17
+      image: docker://pandoc/latex:3
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3 # this gives the workflow access to your repository files

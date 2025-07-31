@@ -19,14 +19,10 @@ jobs:
       - name: Run Pandoc on main tex file
         run: |
           mkdir -p pandoc
-          pandoc -F pandoc-crossref --citeproc -t html -s -o pandoc/article.html main.tex
+          pandoc -F pandoc-crossref --citeproc -t html -s -o pandoc/index.html main.tex
           pandoc -F pandoc-crossref --citeproc --reference-doc style.dotx main.tex -o pandoc/article.docx  
           mkdir -p pandoc/img
-          cp -r ./img pandoc/
-          
-      - name: Make dummy file        
-        run: |
-          echo "pandoc" > pandoc/test.txt
+          cp -r ./img pandoc/          
           
       - name: Upload artifact        
         uses: actions/upload-artifact@v4
@@ -42,6 +38,7 @@ jobs:
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
+        
       - name: Compile LaTeX to PDF
         run: |
           mkdir -p pdf
@@ -49,11 +46,7 @@ jobs:
           biber pdf/main || true
           pdflatex -output-directory=pdf main.tex || true
           mv pdf/main.pdf pdf/article.pdf
-          
-      - name: Make dummy file        
-        run: |          
-          echo "PDF" > pdf/pdf.txt
-          
+                          
       - name: Upload PDF artifact        
         uses: actions/upload-artifact@v4
         with:
@@ -82,9 +75,8 @@ jobs:
           
       - name: Combine outputs into one directory
         run: |
-          mkdir -p final
-          ls -a * > file_list.html
-          cp  pandoc/article.html final/          
+          mkdir -p final          
+          cp  pandoc/index.html final/          
           cp  pandoc/article.docx final/
           cp -r pandoc/img final/
           cp  pdf/article.pdf final/          

@@ -20,9 +20,31 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v3 # this gives the workflow access to your repository files
       - name: Run Pandoc on main tex file
-        run: "pandoc -F pandoc-crossref --citeproc -t html -s -o article.html main.tex" # gets appended to pandoc command
+        run: "pandoc -F pandoc-crossref --citeproc -t html -s -o article.html main.tex" # gets appended to pandoc command      
+      - name: Print Out Files 
+        run: "ls ./* > test.html"          
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:          
+          path: '.' # Upload entire repository
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+  make_pdf:  
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    container:
+      image: docker://4teamwork/pdflatex:20240210
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3 # this gives the workflow access to your repository files
       - name: Try and make a pdf from tex file
-        run: "pandoc -s -o article.pdf main.tex" 
+        run: "pdflatex main.tex" 
         continue-on-error: true
       - name: Print Out Files 
         run: "ls ./* > test.html"          
@@ -35,3 +57,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+

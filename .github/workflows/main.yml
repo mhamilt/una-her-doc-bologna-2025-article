@@ -26,8 +26,10 @@ jobs:
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
+        id: pandoc_html
         uses: actions/upload-pages-artifact@v3
-        with:          
+        with:
+          name: pandoc_html
           path: '.' # Upload entire repository
 
   make_pdf:  
@@ -55,8 +57,10 @@ jobs:
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
+        id: latex_pdf
         uses: actions/upload-pages-artifact@v3
-        with:          
+        with:
+          name: latex_pdf
           path: '.' # Upload entire repository
 
   # Deployment job

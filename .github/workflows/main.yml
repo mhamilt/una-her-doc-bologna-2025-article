@@ -24,7 +24,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          name: pandoc_html          
+          name: output-files        
           path: 'output/' # Upload entire repository
 
   make_pdf:  

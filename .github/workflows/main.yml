@@ -26,8 +26,7 @@ jobs:
           mkdir pandoc/
           echo "pandoc" > pandoc/test.txt
           
-      - name: Upload artifact
-        id: pandoc_files_id
+      - name: Upload artifact        
         uses: actions/upload-pages-artifact@v3
         with:
           name: pandoc_files        
@@ -53,8 +52,7 @@ jobs:
           mkdir pdf/
           echo "PDF" > pdf/pdf.txt
           
-      - name: Upload PDF artifact
-        id: pdf_files_id
+      - name: Upload PDF artifact        
         uses: actions/upload-artifact@v4
         with:
           name: pdf_files
@@ -71,8 +69,15 @@ jobs:
       - name: Download pandoc artifact
         uses: actions/download-artifact@v4
         with:
-          artifact-ids: pdf_files_id, pandoc_files_id
+          name: pandoc_files
           path: ./output
+          
+      - name: Download pdf artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: pdf_files
+          path: ./output
+          
       - name: Combine outputs into one directory
         run: |
           mkdir -p final

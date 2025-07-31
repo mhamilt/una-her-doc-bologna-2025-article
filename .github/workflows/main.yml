@@ -12,7 +12,7 @@ jobs:
   convert_via_pandoc:  
     runs-on: ubuntu-latest
     container:
-      image: docker://pandoc/latex:3
+      image: docker://pandoc/core:3
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3 # this gives the workflow access to your repository files
@@ -21,6 +21,9 @@ jobs:
           mkdir -p pandoc
           pandoc -F pandoc-crossref --citeproc -t html -s -o pandoc/article.html main.tex
           pandoc -F pandoc-crossref --citeproc --reference-doc style.dotx main.tex -o pandoc/article.docx  
+          mkdir -p pandoc/img
+          cp ./img pandoc/
+          
       - name: Make dummy file        
         run: |
           echo "pandoc" > pandoc/test.txt
@@ -82,7 +85,8 @@ jobs:
           mkdir -p final
           ls -a * > file_list.html
           cp  pandoc/article.html final/          
-          cp  pandoc/article.docx final/          
+          cp  pandoc/article.docx final/
+          cp -r pandoc/img final/
           cp  pdf/article.pdf final/          
           
       - name: Setup Pages

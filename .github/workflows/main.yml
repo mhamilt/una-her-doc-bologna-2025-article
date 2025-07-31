@@ -27,7 +27,7 @@ jobs:
           echo "pandoc" > pandoc/test.txt
           
       - name: Upload artifact        
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           name: pandoc_files        
           path: 'pandoc/' # Upload entire repository
@@ -70,13 +70,13 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: pandoc_files
-          path: ./output
+          path: ./pandoc
           
       - name: Download pdf artifact
         uses: actions/download-artifact@v4
         with:
           name: pdf_files
-          path: ./output
+          path: ./pdf
           
       - name: Combine outputs into one directory
         run: |

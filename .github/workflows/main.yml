@@ -61,7 +61,7 @@ jobs:
       - name: Download pandoc artifact
         uses: actions/download-artifact@v4
         with:
-          name: pdf_files
+          name: pandoc_files
           path: ./output/html
       - name: Download pdf artifact
         uses: actions/download-artifact@v4

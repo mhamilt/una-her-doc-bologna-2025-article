@@ -11,44 +11,54 @@ permissions:
 jobs:
   convert_via_pandoc:  
     runs-on: ubuntu-latest
-    container:
-      image: docker://pandoc/latex:3
+    # container:
+      # image: docker://pandoc/latex:3
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3 # this gives the workflow access to your repository files
-      - name: Run Pandoc on main tex file
+      # - name: Run Pandoc on main tex file
+      #   run: |
+      #     mkdir -p output
+      #     pandoc -F pandoc-crossref --citeproc -t html -s -o output/article.html main.tex
+      #     pandoc -F pandoc-crossref --citeproc --reference-doc style.dotx main.tex -o article.docx  
+      - name: Make dummy file        
         run: |
-          mkdir -p output
-          pandoc -F pandoc-crossref --citeproc -t html -s -o output/article.html main.tex
-          pandoc -F pandoc-crossref --citeproc --reference-doc style.dotx main.tex -o article.docx  
-
+          mkdir pandoc/
+          echo "pandoc" > pandoc/test.txt
+          
       - name: Upload artifact
+        id: pandoc_files_id
         uses: actions/upload-pages-artifact@v3
         with:
           name: pandoc_files        
-          path: 'output/' # Upload entire repository
+          path: 'pandoc/' # Upload entire repository
 
   make_pdf:  
     runs-on: ubuntu-latest
     needs: convert_via_pandoc
-    container:
-      image: nanozoo/pdflatex:3.14159265--6263fbd
+    # container:
+      # image: nanozoo/pdflatex:3.14159265--6263fbd
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
-      - name: Compile LaTeX to PDF
+      # - name: Compile LaTeX to PDF
+      #   run: |
+      #     mkdir -p output
+      #     pdflatex -output-directory=output main.tex || true
+      #     biber output/main || true
+      #     pdflatex -output-directory=output main.tex || true
+      #     mv output/main.pdf output/article.pdf
+      - name: Make dummy file        
         run: |
-          mkdir -p output
-          pdflatex -output-directory=output main.tex || true
-          biber output/main || true
-          pdflatex -output-directory=output main.tex || true
-          mv output/main.pdf output/article.pdf
-        
+          mkdir pdf/
+          echo "PDF" > pdf/pdf.txt
+          
       - name: Upload PDF artifact
+        id: pdf_files_id
         uses: actions/upload-artifact@v4
         with:
           name: pdf_files
-          path: output/
+          path: pdf/
 
   # Deployment job
   deploy:
@@ -61,19 +71,12 @@ jobs:
       - name: Download pandoc artifact
         uses: actions/download-artifact@v4
         with:
-          name: pandoc_files
-          path: ./output/html
-      - name: Download pdf artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: pdf_files
-          path: ./output/pdf
+          artifact-ids: pdf_files_id, pandoc_files_id
+          path: ./output
       - name: Combine outputs into one directory
         run: |
           mkdir -p final
-          cp  output/html/article.html final/
-          cp  output/html/article.docx final/
-          cp  output/pdf/article.pdf final/
+          cp  output/* final/          
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact

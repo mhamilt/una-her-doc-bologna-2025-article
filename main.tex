@@ -15,7 +15,7 @@
     maxnames=1,
     maxcitenames=1,
     uniquelist=false,
-]{biblatex}
+]{biblatex} % https://www.overleaf.com/learn/latex/Biblatex_citation_styles
 \addbibresource{main.bib}
 \renewcommand{\cite}{\parencite}
 %----------------------------------------------------------------------------------------
@@ -34,8 +34,8 @@ Historical Harpsichord\\Keyboard Exhibition:\\San Colombano\\
 \input{article}
  
 \clearpage
-\section*{References}
-\printbibliography[heading=none]{}
+% \section*{References}
+\printbibliography[heading=bibintoc,title={References}]
 \end{document}
 
 
